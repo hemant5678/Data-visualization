@@ -1,0 +1,59 @@
+.sidebar{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    background-color: rgba(240, 232, 232, 0.911);
+    position: fixed;
+    box-shadow: 7px;
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
+    top: 12vh;
+
+}
+ul {
+    padding: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.menu{
+    padding: 2vw;
+    list-style-type: none;
+    font-weight: 200;
+    font-size: 1.6vw;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 61, 61);
+    border-bottom: 2px solid #cccccc; /* Adjust the color and thickness as needed */
+    /* position: relative; */
+    
+}
+li:hover{
+    color: rgb(241, 14, 14);
+}
+li svg{
+    font-size: 40px;
+}
+
+.dropdown-item{
+    display: flex;
+    justify-content: center;
+    padding: 1.5vw;
+    font-weight: 600;
+}
+.dropdown-menu {
+    background-color: #cccccc;
+}
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.904);
+    color: aliceblue;
+   
+}
+.modal{
+    z-index: 5;
+    top: 20%;
+}
